@@ -33,19 +33,19 @@ Your portfolio needs to have these pages:
 
 * fork and clone this repo
 * cd into `react-router-portfolio`
-* create a new react app with `create-react-app .`
+* create a new react app in the current directory with `npx create-react-app .`
 
 ## Don't Forget...
 
 * Do you have [react-router-dom](https://www.npmjs.com/package/react-router-dom) npm installed for this project?
 
-* Here is how to render a component with `props` inside of a `<Route>` element:
+* Here is how to send `props` to a component using the `<Route>` tag:
 
 ```js
 <Route path="/blog" render={ () => <Blog posts={this.props.posts} /> }/>
 ```
 
-more info is to be found at the [react router docs](https://reactrouter.com/web/guides/quick-start).
+More info can be found at the [react router docs](https://reactrouter.com/web/guides/quick-start).
 
 ## Bonuses
 
