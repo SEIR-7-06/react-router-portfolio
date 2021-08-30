@@ -42,7 +42,7 @@ Your portfolio needs to have these pages:
 * Here is how to send `props` to a component using the `<Route>` tag:
 
 ```js
-<Route path="/blog" render={ () => <Blog posts={this.props.posts} /> }/>
+<Route path="/blog" render={ () => <Blog posts={ posts } /> }/>
 ```
 
 More info can be found at the [react router docs](https://reactrouter.com/web/guides/quick-start).
